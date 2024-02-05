@@ -36,9 +36,4 @@
     (stroke (width 0) (type default))
     (uuid f630a805-dba4-4847-84b2-9895df97ca94)
   )
-
-  (text "batter_IN -> BMS -> booster" (at 88.9 7.62 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid fb53c5d5-83f8-4898-8439-db417cfdaa2c)
-  )
 )
