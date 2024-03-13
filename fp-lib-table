@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TPS63070RNMR")(type "KiCad")(uri "/Users/shoaib/Downloads/TPS63070RNMR")(options "")(descr ""))
+  (lib (name "PCF8574T_3_518")(type "KiCad")(uri "${DOWNLOADS}/PCF8574T_3_518")(options "")(descr ""))
+  (lib (name "TP4056")(type "KiCad")(uri "${DOWNLOADS}/TP4056")(options "")(descr ""))
+)

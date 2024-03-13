@@ -15,23 +15,6 @@
   )
 
 
-  (sheet (at 123.825 114.3) (size 27.94 17.78)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 32cc1583-e84b-4879-8060-a622a838d486)
-    (property "Sheetname" "Outputs " (at 123.19 125.095 0)
-      (effects (font (size 5 5)) (justify left bottom))
-    )
-    (property "Sheetfile" "outputs.kicad_sch" (at 123.825 132.6646 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Capibator_PCB"
-        (path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50" (page "4"))
-      )
-    )
-  )
-
   (sheet (at 123.825 60.325) (size 30.48 15.24)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -45,23 +28,6 @@
     (instances
       (project "Capibator_PCB"
         (path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 123.19 86.36) (size 29.21 15.24)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 71dc4b6e-1d7c-41f1-b4d1-f9b58adb22ef)
-    (property "Sheetname" "Power" (at 126.365 95.885 0)
-      (effects (font (size 5 5)) (justify left bottom))
-    )
-    (property "Sheetfile" "power.kicad_sch" (at 123.19 102.1846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Capibator_PCB"
-        (path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50" (page "3"))
       )
     )
   )
