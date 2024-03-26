@@ -1,38 +1,56 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 314af396-fc31-4fe3-9f85-bbd0c4bf0b50)
-
-  (paper "A4")
-
-  (title_block
-    (title "Capibator")
-    (date "2024-01-19")
-    (rev "1.1")
-    (company "capistor.com")
-  )
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 123.825 60.325) (size 30.48 15.24)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 6d26da2f-4df7-46b4-abe0-c85ffa1a5908)
-    (property "Sheetname" "MCU" (at 129.54 70.485 0)
-      (effects (font (size 5 5)) (justify left bottom))
-    )
-    (property "Sheetfile" "MCU.kicad_sch" (at 123.825 76.1496 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "Capibator_PCB"
-        (path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50" (page "2"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "314af396-fc31-4fe3-9f85-bbd0c4bf0b50")
+	(paper "A4")
+	(title_block
+		(title "Capibator")
+		(date "2024-01-19")
+		(rev "1.1")
+		(company "capistor.com")
+	)
+	(lib_symbols)
+	(sheet
+		(at 123.825 60.325)
+		(size 30.48 15.24)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6d26da2f-4df7-46b4-abe0-c85ffa1a5908")
+		(property "Sheetname" "MCU"
+			(at 129.54 70.485 0)
+			(effects
+				(font
+					(size 5 5)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 123.825 76.1496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Capibator_PCB"
+				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
