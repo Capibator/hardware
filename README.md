@@ -33,6 +33,6 @@ made with Kicad, 2 layers, lots of vias :D
 This is how it looks as of right now. 
 ![Version 1](Assets/sch_version_1.png "schematic")
 PCB 
-![Version 1](Assets/pcb_pretty.png "pcb")
+![Version 1](Assets/pcb_pretty_better.png "pcb")
 
 
