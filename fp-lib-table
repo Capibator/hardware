@@ -4,4 +4,5 @@
   (lib (name "PCF8574T_3_518")(type "KiCad")(uri "${KIPRJMOD}/PCF8574T_3_518")(options "")(descr ""))
   (lib (name "TP4056")(type "KiCad")(uri "${KIPRJMOD}/TP4056")(options "")(descr ""))
   (lib (name "DS1307ZTR")(type "KiCad")(uri "${KIPRJMOD}/DS1307ZTR")(options "")(descr ""))
+  (lib (name "DVI-D connector")(type "KiCad")(uri "${KIPRJMOD}/DVI-D connector")(options "")(descr ""))
 )
