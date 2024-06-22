@@ -1961,139 +1961,6 @@
 				)
 			)
 		)
-		(symbol "Device:Fuse"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -7746,6 +7613,12 @@
 		(uuid "1d115f9a-fafd-45cc-b05c-6a42f346777b")
 	)
 	(junction
+		(at 337.82 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2074c023-2942-4b3f-875c-646de52cc3e7")
+	)
+	(junction
 		(at 58.42 90.805)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7764,6 +7637,12 @@
 		(uuid "27fe5d02-05fb-4e7a-a72c-51374267bd19")
 	)
 	(junction
+		(at 341.63 55.245)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28772d1a-1d53-4ea8-a54b-0c732de94c24")
+	)
+	(junction
 		(at 208.28 204.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7774,6 +7653,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28edff42-6e9a-4543-abab-e83df59f3840")
+	)
+	(junction
+		(at 339.09 57.785)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a55c075-8df1-4ca2-a9c4-649cf5c3a677")
 	)
 	(junction
 		(at 480.06 73.025)
@@ -7884,12 +7769,6 @@
 		(uuid "543a5d9e-8b9b-49ae-a39a-a8b112af0c8b")
 	)
 	(junction
-		(at 340.995 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5677d934-447b-4815-bc8c-3cb9efc2b9df")
-	)
-	(junction
 		(at 244.475 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7986,6 +7865,12 @@
 		(uuid "863195a1-75df-4923-8373-76b185e67e9d")
 	)
 	(junction
+		(at 337.82 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8682fe62-3b69-48a1-b664-dcb67ecacc50")
+	)
+	(junction
 		(at 431.8 56.515)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8070,12 +7955,6 @@
 		(uuid "b11715de-b4d3-4a14-a548-66fe47bb14a1")
 	)
 	(junction
-		(at 340.995 55.245)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b687db45-471c-44dd-97c1-a2c4741ea1c0")
-	)
-	(junction
 		(at 464.82 73.025)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8116,6 +7995,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbbbbddb-8167-4c8a-b86e-3ca7375c2aea")
+	)
+	(junction
+		(at 339.09 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd363334-15f9-41cc-abd2-5208223fa8df")
 	)
 	(junction
 		(at 161.29 189.23)
@@ -8272,6 +8157,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fac27232-7ffc-482b-8f77-97aeaec078e7")
+	)
+	(junction
+		(at 341.63 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb0f08d2-d6af-4efc-a267-b1a2dd60d9e9")
 	)
 	(junction
 		(at 208.28 213.36)
@@ -8450,16 +8341,6 @@
 			(type default)
 		)
 		(uuid "0b03fbee-1aa8-48f6-b519-cf17d409b07d")
-	)
-	(wire
-		(pts
-			(xy 66.04 182.88) (xy 63.5 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b181ea1-a4e3-4b10-b961-e159f0545dc1")
 	)
 	(wire
 		(pts
@@ -8963,6 +8844,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 48.26) (xy 337.82 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f0c34ce-f55d-4238-8036-60ddb2705e27")
+	)
+	(wire
+		(pts
 			(xy 504.19 144.145) (xy 521.335 144.145)
 		)
 		(stroke
@@ -9073,7 +8964,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.995 55.245) (xy 339.09 55.245)
+			(xy 339.09 55.245) (xy 341.63 55.245)
 		)
 		(stroke
 			(width 0)
@@ -9210,6 +9101,16 @@
 			(type default)
 		)
 		(uuid "3babdd73-dbee-49ea-b952-bd5470f52cb0")
+	)
+	(wire
+		(pts
+			(xy 341.63 59.69) (xy 339.09 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bc26879-c187-4b9a-bae2-960e0ce1148d")
 	)
 	(wire
 		(pts
@@ -9473,6 +9374,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 41.91) (xy 338.455 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4f4d35-98af-4449-8b36-fe2947fa0f2d")
+	)
+	(wire
+		(pts
 			(xy 26.67 248.92) (xy 26.67 265.43)
 		)
 		(stroke
@@ -9723,6 +9634,16 @@
 	)
 	(wire
 		(pts
+			(xy 337.82 41.91) (xy 337.82 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c763e0d-9ef8-4265-b494-821aff3f67f2")
+	)
+	(wire
+		(pts
 			(xy 231.775 106.68) (xy 236.855 106.68)
 		)
 		(stroke
@@ -9730,16 +9651,6 @@
 			(type default)
 		)
 		(uuid "5ca6a91d-9df0-4a22-9ead-19ede04a596f")
-	)
-	(wire
-		(pts
-			(xy 339.09 55.245) (xy 339.09 57.785)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cb669f9-5815-4d97-b279-3d61385ca82d")
 	)
 	(wire
 		(pts
@@ -9783,7 +9694,7 @@
 	)
 	(wire
 		(pts
-			(xy 338.455 39.37) (xy 340.995 39.37)
+			(xy 338.455 39.37) (xy 341.63 39.37)
 		)
 		(stroke
 			(width 0)
@@ -9843,7 +9754,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.995 53.975) (xy 340.995 55.245)
+			(xy 341.63 53.34) (xy 341.63 55.245)
 		)
 		(stroke
 			(width 0)
@@ -9923,7 +9834,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 182.88) (xy 55.88 182.88)
+			(xy 36.83 182.88) (xy 66.04 182.88)
 		)
 		(stroke
 			(width 0)
@@ -10063,7 +9974,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.995 55.245) (xy 340.995 56.515)
+			(xy 341.63 55.245) (xy 341.63 55.88)
 		)
 		(stroke
 			(width 0)
@@ -10193,6 +10104,16 @@
 	)
 	(wire
 		(pts
+			(xy 341.63 45.72) (xy 337.82 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b6f6567-a71b-4864-b258-f77a995a7478")
+	)
+	(wire
+		(pts
 			(xy 445.77 56.515) (xy 443.23 56.515)
 		)
 		(stroke
@@ -10283,7 +10204,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.995 38.1) (xy 340.995 39.37)
+			(xy 341.63 38.1) (xy 341.63 39.37)
 		)
 		(stroke
 			(width 0)
@@ -10463,7 +10384,17 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 195.58) (xy 246.38 195.58)
+			(xy 339.09 59.69) (xy 339.09 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91327c51-1e7d-4765-9d89-eedb3c2a6ecd")
+	)
+	(wire
+		(pts
+			(xy 208.28 195.58) (xy 240.03 195.58)
 		)
 		(stroke
 			(width 0)
@@ -10530,6 +10461,16 @@
 			(type default)
 		)
 		(uuid "970b4492-8b93-4889-9940-6331146e81c7")
+	)
+	(wire
+		(pts
+			(xy 339.09 55.245) (xy 339.09 57.785)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9717a1fa-2067-415b-b271-a86b956217dc")
 	)
 	(wire
 		(pts
@@ -10640,6 +10581,16 @@
 			(type default)
 		)
 		(uuid "a1881765-b9dd-48ac-92bc-870b2da61400")
+	)
+	(wire
+		(pts
+			(xy 339.09 59.69) (xy 339.09 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2368c02-b3cb-47f9-a955-ba4ada886f9a")
 	)
 	(wire
 		(pts
@@ -10770,6 +10721,16 @@
 			(type default)
 		)
 		(uuid "aaa427c4-a1f2-4961-97de-476bd8ce7629")
+	)
+	(wire
+		(pts
+			(xy 341.63 62.23) (xy 339.09 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab2f10bb-16c2-4691-b3f7-b86bd4687777")
 	)
 	(wire
 		(pts
@@ -10973,6 +10934,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 195.58) (xy 246.38 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd10ce22-8ec9-48d4-9ad4-b38c355a64f4")
+	)
+	(wire
+		(pts
 			(xy 266.065 254.635) (xy 269.875 254.635)
 		)
 		(stroke
@@ -11163,7 +11134,7 @@
 	)
 	(wire
 		(pts
-			(xy 335.915 41.91) (xy 338.455 41.91)
+			(xy 335.915 41.91) (xy 337.82 41.91)
 		)
 		(stroke
 			(width 0)
@@ -11643,7 +11614,7 @@
 	)
 	(wire
 		(pts
-			(xy 340.995 39.37) (xy 340.995 40.64)
+			(xy 341.63 39.37) (xy 341.63 40.64)
 		)
 		(stroke
 			(width 0)
@@ -11820,6 +11791,16 @@
 			(type default)
 		)
 		(uuid "fa1e7e1e-3fde-470d-9044-94dff4264d0f")
+	)
+	(wire
+		(pts
+			(xy 341.63 48.26) (xy 337.82 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faeb420d-6672-413b-92a3-b06c3e53b237")
 	)
 	(wire
 		(pts
@@ -13654,7 +13635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0237bd8b-ea1a-42ea-8ece-9c89d1dc03d6")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR03"
 			(at 34.29 217.17 0)
 			(effects
 				(font
@@ -13705,7 +13686,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR017")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -13721,7 +13702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "037e8eae-945d-4799-a777-9eb2ee7527aa")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR039"
 			(at 421.005 119.38 0)
 			(effects
 				(font
@@ -13771,7 +13752,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR019")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -13861,7 +13842,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "6p"
@@ -13924,7 +13904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "053640db-849a-484a-908f-3a5381c349c9")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR044"
 			(at 497.84 50.165 0)
 			(effects
 				(font
@@ -13974,7 +13954,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR048")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -13990,7 +13970,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a01e76f-a8b7-4bfb-8f28-8a30c4fcaf32")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR05"
 			(at 58.42 92.075 0)
 			(effects
 				(font
@@ -14040,7 +14020,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR014")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -14118,7 +14098,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 346.075 53.975 0)
+		(at 346.71 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14126,7 +14106,7 @@
 		(dnp no)
 		(uuid "0c2a4d9f-06aa-4fbe-84bd-572306e38fee")
 		(property "Reference" "J4"
-			(at 348.615 53.975 0)
+			(at 349.25 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14135,7 +14115,7 @@
 			)
 		)
 		(property "Value" "C8465"
-			(at 344.805 64.135 0)
+			(at 336.804 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14144,7 +14124,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
-			(at 346.075 53.975 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14153,7 +14133,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 346.075 53.975 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14162,7 +14142,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 346.075 53.975 0)
+			(at 346.71 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14283,7 +14263,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 431.8 52.705 0)
 			(effects
 				(font
@@ -14354,15 +14334,15 @@
 		(fields_autoplaced yes)
 		(uuid "0d615d9b-0fb0-462a-aa67-4174523bd780")
 		(property "Reference" "R5"
-			(at 303.53 57.785 90)
+			(at 303.53 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330"
-			(at 303.53 60.325 90)
+		(property "Value" "100"
+			(at 303.53 60.96 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14421,7 +14401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e0da911-38ff-45f7-93d8-0730f497715d")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR023"
 			(at 208.28 219.71 0)
 			(effects
 				(font
@@ -14471,74 +14451,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 59.69 182.88 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e12d4f6-af66-47bf-aa5d-fa9662a17e00")
-		(property "Reference" "F1"
-			(at 59.69 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CAR_FUSE 2A"
-			(at 59.69 185.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 59.69 184.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ffb494ef-723f-4b7f-ac4c-80a05e7b1e87")
-		)
-		(pin "1"
-			(uuid "4f510a77-f0e7-4a48-8990-c1d6a9cb9216")
-		)
-		(instances
-			(project "Capibator_PCB"
-				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "F1")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -14631,7 +14544,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ebfde9e-7ba0-4098-87d7-8276d23802c6")
 		(property "Reference" "R15"
-			(at 449.58 129.54 0)
+			(at 449.58 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14639,8 +14552,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 449.58 132.08 0)
+		(property "Value" "100"
+			(at 449.58 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14803,7 +14716,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 405.765 52.705 0)
 			(effects
 				(font
@@ -15013,7 +14926,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f049a70-115b-4e07-83be-b7de473ccfbf")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR06"
 			(at 58.42 117.475 0)
 			(effects
 				(font
@@ -15064,7 +14977,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR042")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -15255,7 +15168,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 346.075 38.1 0)
+		(at 346.71 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15263,7 +15176,7 @@
 		(dnp no)
 		(uuid "282b63b7-50fe-4102-926d-5fcf1aa303dd")
 		(property "Reference" "J6"
-			(at 348.615 38.1 0)
+			(at 349.25 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15272,7 +15185,7 @@
 			)
 		)
 		(property "Value" "C8465"
-			(at 344.17 48.26 0)
+			(at 344.805 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15282,7 +15195,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
-			(at 346.075 38.1 0)
+			(at 346.71 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15291,7 +15204,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 346.075 38.1 0)
+			(at 346.71 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15300,7 +15213,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 346.075 38.1 0)
+			(at 346.71 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15404,15 +15317,15 @@
 		(fields_autoplaced yes)
 		(uuid "2cfa50bb-86c9-4e97-a06a-5ca0282d1f78")
 		(property "Reference" "R6"
-			(at 314.325 135.255 90)
+			(at 314.325 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330"
-			(at 314.325 137.795 90)
+		(property "Value" "100"
+			(at 314.325 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15690,12 +15603,11 @@
 		(dnp no)
 		(uuid "39c4b823-9b81-4f19-b92e-6bdebe0572c4")
 		(property "Reference" "C9"
-			(at 26.67 103.505 90)
+			(at 24.638 109.982 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "6p"
@@ -15759,7 +15671,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a9bd983-a991-439b-a21a-64667b48b7ea")
 		(property "Reference" "C12"
-			(at 83.82 92.0686 0)
+			(at 83.82 92.0685 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15767,8 +15679,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 83.82 94.6086 0)
+		(property "Value" "10u"
+			(at 83.82 94.6085 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15819,6 +15731,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 346.71 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3af15dbe-9213-4c11-8e6c-7c1ad998db54")
+		(property "Reference" "J5"
+			(at 349.25 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C8465"
+			(at 344.805 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
+			(at 346.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 346.71 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "94937e57-ddc8-459c-b20e-2ee42bb388f1")
+		)
+		(pin "2"
+			(uuid "dd8532a3-e490-4359-ad3f-f1530cc995cb")
+		)
+		(instances
+			(project "Capibator_PCB"
+				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 262.255 262.255 0)
 		(unit 1)
@@ -15826,26 +15808,23 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "426084bd-b90f-48d8-91b7-3c715a08e1a5")
 		(property "Reference" "D13"
-			(at 261.9375 266.065 90)
+			(at 262.382 256.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "LED"
-			(at 259.3975 266.065 90)
+			(at 260.35 257.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
@@ -15962,6 +15941,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 242.57 195.58 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4300d753-a50f-44ff-91f6-e663126b53c7")
+		(property "Reference" "R2"
+			(at 243.586 197.612 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3k"
+			(at 246.126 197.358 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 242.57 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 242.57 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ecb483d9-6b99-4335-b2f3-78c67ec4340b")
+		)
+		(pin "1"
+			(uuid "316614a0-9bbb-4ac4-beb0-ac5997fdffa0")
+		)
+		(instances
+			(project "Capibator_PCB"
+				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 123.19 274.32 0)
 		(unit 1)
@@ -15971,7 +16019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43e1df91-c663-4099-bccf-a34b11997398")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 123.19 280.67 0)
 			(effects
 				(font
@@ -16022,7 +16070,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -16038,7 +16086,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "462fa274-d37f-46f2-b8bd-3291e3a56bb3")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR015"
 			(at 173.99 261.62 0)
 			(effects
 				(font
@@ -16088,7 +16136,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR027")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -16275,7 +16323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
 			(at 40.64 244.475 0)
 			(effects
 				(font
@@ -16335,7 +16383,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "100"
 			(at 266.065 258.445 90)
 			(effects
 				(font
@@ -16535,7 +16583,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52ee53cf-2b03-43e2-bd5c-a2ea00e801b9")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR020"
 			(at 191.77 40.005 0)
 			(effects
 				(font
@@ -16585,7 +16633,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR045")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -16619,7 +16667,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+		(property "Footprint" "Inductor_SMD:L_Murata_LQH2MCNxxxx02_2.0x1.6mm"
 			(at 287.02 204.47 0)
 			(effects
 				(font
@@ -17189,7 +17237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69de9992-6895-4d69-9744-ab8fb352d863")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR040"
 			(at 421.005 143.51 0)
 			(effects
 				(font
@@ -17239,7 +17287,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR020")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -17363,7 +17411,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "213k"
+		(property "Value" "210k"
 			(at 247.65 193.04 0)
 			(effects
 				(font
@@ -17675,7 +17723,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "756b9acc-daf1-4523-8cd6-521ed125c076")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR036"
 			(at 316.865 24.765 0)
 			(effects
 				(font
@@ -17726,7 +17774,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR015")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -17741,7 +17789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7701d007-477b-44dd-a7d2-3002768987bb")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR029"
 			(at 231.775 260.985 0)
 			(effects
 				(font
@@ -17791,7 +17839,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR036")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -17877,7 +17925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "778e8517-b6cf-494b-89b8-c70a76779c9b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR01"
 			(at 26.67 252.73 0)
 			(effects
 				(font
@@ -17927,7 +17975,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -18279,7 +18327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82ca7e87-5e08-4720-bcc2-c8aee8468136")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR014"
 			(at 151.13 200.66 0)
 			(effects
 				(font
@@ -18329,7 +18377,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR028")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -18414,13 +18462,12 @@
 		(dnp no)
 		(uuid "83c86f70-7dba-4754-921a-bee2aab31283")
 		(property "Reference" "D14"
-			(at 259.3975 264.795 90)
+			(at 264.668 272.034 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Value" "LED"
@@ -18484,7 +18531,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85a817d2-8c9b-4ee9-ae76-7c6b8a518f9b")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR041"
 			(at 481.965 135.255 0)
 			(effects
 				(font
@@ -18534,7 +18581,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR021")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -18620,7 +18667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87bb8f49-4044-410b-9874-42f0fc9ef752")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR07"
 			(at 62.23 182.88 0)
 			(effects
 				(font
@@ -18671,7 +18718,76 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR023")
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 346.71 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8cbff82b-6d12-418f-a74c-876be4483947")
+		(property "Reference" "J7"
+			(at 349.25 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C8465"
+			(at 337.058 63.754 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 346.71 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c516458-dbff-454e-b616-61429fd82e92")
+		)
+		(pin "1"
+			(uuid "3eee03de-24fc-4381-a422-be51ab625ba7")
+		)
+		(instances
+			(project "Capibator_PCB"
+				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -18756,7 +18872,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e853f83-c9b5-45a8-986c-598f2b8d8636")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR016"
 			(at 184.785 93.98 0)
 			(effects
 				(font
@@ -18806,7 +18922,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR04")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -18969,7 +19085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "100"
 			(at 269.875 258.445 90)
 			(effects
 				(font
@@ -19281,7 +19397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9cf961c8-94f9-4b8b-a236-70adf6c38307")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR043"
 			(at 491.49 79.375 0)
 			(effects
 				(font
@@ -19331,7 +19447,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR047")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -19425,7 +19541,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "100"
 			(at 441.325 132.08 0)
 			(effects
 				(font
@@ -19556,7 +19672,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1ec33c3-7f35-44b2-bf41-b898e538f321")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR010"
 			(at 116.84 248.92 0)
 			(effects
 				(font
@@ -19606,7 +19722,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR07")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -19822,7 +19938,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a525b9e4-665a-471f-86b7-26aadc534c85")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR026"
 			(at 216.535 44.45 0)
 			(effects
 				(font
@@ -19872,7 +19988,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR09")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -19888,7 +20004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6766f46-5175-4ba5-964b-4aab2e477d3c")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR012"
 			(at 143.51 65.405 0)
 			(effects
 				(font
@@ -19938,7 +20054,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR037")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -19954,7 +20070,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a76075e0-9646-4e20-862d-c6649ce7a8b2")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR031"
 			(at 237.49 205.74 0)
 			(effects
 				(font
@@ -20004,7 +20120,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR039")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -20207,7 +20323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a96d0008-705c-405c-abbd-a8fe2ec861dd")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR032"
 			(at 244.475 55.88 0)
 			(effects
 				(font
@@ -20258,7 +20374,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR011")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -20557,7 +20673,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae53c01f-1e08-415d-81a4-9efa4ce07a83")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR018"
 			(at 191.135 262.255 0)
 			(effects
 				(font
@@ -20608,7 +20724,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR030")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -20709,7 +20825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 374.015 52.705 0)
 			(effects
 				(font
@@ -20879,7 +20995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b05ef025-2537-4010-9305-bac1e8390b61")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR038"
 			(at 337.82 106.045 0)
 			(effects
 				(font
@@ -20930,7 +21046,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR01")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -20946,7 +21062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b123af95-268f-4513-8446-c6cd58f5beb5")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR035"
 			(at 312.42 72.39 0)
 			(effects
 				(font
@@ -20996,7 +21112,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR016")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -21083,7 +21199,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b345e4b5-b834-4f06-bbd5-659ec246f7bb")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR02"
 			(at 26.67 282.575 0)
 			(effects
 				(font
@@ -21134,7 +21250,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR08")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -21167,7 +21283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 439.42 58.293 90)
 			(effects
 				(font
@@ -21219,7 +21335,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b605ff09-f1b3-4bb8-890a-e2b426b4997b")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR034"
 			(at 266.065 258.445 0)
 			(effects
 				(font
@@ -21269,7 +21385,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR041")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -21285,7 +21401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6d8c37a-f90b-48d6-a265-aea372a3c115")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR021"
 			(at 191.77 47.625 0)
 			(effects
 				(font
@@ -21335,7 +21451,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR044")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -21351,7 +21467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b7cf5a49-6015-49b5-998d-802030d85f27")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR04"
 			(at 36.83 195.58 0)
 			(effects
 				(font
@@ -21402,7 +21518,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR022")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -21745,7 +21861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bea95b21-5cc8-4a5b-a66c-cc1ce1f23a38")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR017"
 			(at 180.34 148.59 0)
 			(effects
 				(font
@@ -21796,7 +21912,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR05")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -21812,7 +21928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "becfc636-99a3-40b5-a171-131b190e9a1d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR09"
 			(at 115.57 266.7 0)
 			(effects
 				(font
@@ -21862,7 +21978,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR026")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -21878,7 +21994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bf451f5a-153f-4740-9c1b-bcf6e28e96d2")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 118.745 261.62 0)
 			(effects
 				(font
@@ -21928,7 +22044,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -22032,7 +22148,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+		(property "Footprint" "Crystal:Crystal_SMD_2012-2Pin_2.0x1.2mm_HandSoldering"
 			(at 33.02 104.775 0)
 			(effects
 				(font
@@ -22365,7 +22481,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc5fae65-0229-4860-a9a1-1009e7f848c5")
-		(property "Reference" "J5"
+		(property "Reference" "J20"
 			(at 28.5143 176.53 0)
 			(effects
 				(font
@@ -22541,7 +22657,7 @@
 		(instances
 			(project ""
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "J5")
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -22625,7 +22741,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce26b2e7-e222-4ac1-a2f2-daa75754de21")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR013"
 			(at 143.51 105.41 0)
 			(effects
 				(font
@@ -22676,7 +22792,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR032")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -22829,7 +22945,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d34c0b1c-86ae-4c00-b391-47fb9079b388")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR033"
 			(at 252.095 264.795 0)
 			(effects
 				(font
@@ -22879,7 +22995,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR040")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -22895,7 +23011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4487139-c1b7-453b-b935-c8c19121b195")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR022"
 			(at 197.485 276.86 0)
 			(effects
 				(font
@@ -22945,7 +23061,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR031")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -22961,7 +23077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5b13991-e89b-470c-8bd7-33e3eb6780af")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR019"
 			(at 192.405 82.55 0)
 			(effects
 				(font
@@ -23012,7 +23128,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR03")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -23045,7 +23161,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 525.78 52.705 0)
 			(effects
 				(font
@@ -23186,7 +23302,7 @@
 		(fields_autoplaced yes)
 		(uuid "da8512c3-143d-445a-ad04-58e83d7e00fe")
 		(property "Reference" "R12"
-			(at 433.07 129.54 0)
+			(at 433.07 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23194,8 +23310,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 433.07 132.08 0)
+		(property "Value" "100"
+			(at 433.07 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23599,7 +23715,7 @@
 		(fields_autoplaced yes)
 		(uuid "ddb6167d-b3da-43f5-81cd-0e817ac11a3a")
 		(property "Reference" "R37"
-			(at 457.835 129.54 0)
+			(at 457.2 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23607,8 +23723,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 457.835 132.08 0)
+		(property "Value" "100"
+			(at 457.2 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23668,7 +23784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e16599c9-55e6-42a2-8b3e-e547f6f52cd5")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR037"
 			(at 322.58 149.86 0)
 			(effects
 				(font
@@ -23718,7 +23834,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR018")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -23874,7 +23990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e79a5669-692e-4cfe-b83d-f9b31657bc96")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR027"
 			(at 216.535 133.35 0)
 			(effects
 				(font
@@ -23925,7 +24041,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR010")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -23941,7 +24057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e932e166-6748-4169-9f3c-912359d2fb9a")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR042"
 			(at 474.345 144.145 0)
 			(effects
 				(font
@@ -23991,7 +24107,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR046")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -24094,7 +24210,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 491.49 50.165 0)
 			(effects
 				(font
@@ -24450,7 +24566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f16982c2-4015-458d-b6bc-44580305d294")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR028"
 			(at 226.695 283.845 0)
 			(effects
 				(font
@@ -24500,7 +24616,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR035")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -24658,7 +24774,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8a96f96-57de-48d3-959e-e19227019ee3")
 		(property "Reference" "R11"
-			(at 423.545 129.54 0)
+			(at 422.91 129.5399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24666,8 +24782,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 423.545 132.08 0)
+		(property "Value" "100"
+			(at 422.91 132.0799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24794,7 +24910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9444a10-657c-4ed1-b72f-a20b9a844ca0")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR030"
 			(at 237.49 193.04 0)
 			(effects
 				(font
@@ -24844,7 +24960,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR038")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -24929,7 +25045,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fee7d16b-46a1-4913-8286-2921dc24726f")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR025"
 			(at 210.185 262.255 0)
 			(effects
 				(font
@@ -24979,7 +25095,7 @@
 		(instances
 			(project "Capibator_PCB"
 				(path "/314af396-fc31-4fe3-9f85-bbd0c4bf0b50/6d26da2f-4df7-46b4-abe0-c85ffa1a5908"
-					(reference "#PWR034")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
