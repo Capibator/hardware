@@ -36,3 +36,8 @@ PCB
 ![Version 1](Assets/pcb_pretty_better.png "pcb")
 
 
+# Version 2 
+Better placement, hopefully this is better. 
+AC in one end and sensitive logic on the other. 
+![Version 2](Assets/version_2.png "pcb")
+
