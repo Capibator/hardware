@@ -41,3 +41,4 @@ Better placement, hopefully this is better.
 AC in one end and sensitive logic on the other. 
 ![Version 2](Assets/pcb_version2_better.png "pcb")
 
+size 101.5mm x 61.4mm
