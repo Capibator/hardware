@@ -39,5 +39,5 @@ PCB
 # Version 2 
 Better placement, hopefully this is better. 
 AC in one end and sensitive logic on the other. 
-![Version 2](Assets/version_2.png "pcb")
+![Version 2](Assets/pcb_version2_better.png "pcb")
 

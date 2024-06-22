@@ -4,4 +4,5 @@
   (lib (name "PCF8574T_3_518")(type "KiCad")(uri "${KIPRJMOD}/PCF8574T_3_518/PCF8574T_3_518.kicad_sym")(options "")(descr ""))
   (lib (name "TP4056")(type "KiCad")(uri "${KIPRJMOD}/TP4056/TP4056.kicad_sym")(options "")(descr ""))
   (lib (name "DVI-D connector")(type "KiCad")(uri "${KIPRJMOD}/DVI-D connector/3JL-25S-4244.kicad_sym")(options "")(descr ""))
+  (lib (name "dc-jack")(type "KiCad")(uri "${KIPRJMOD}/PJ-002AH/PJ-002AH.kicad_sym")(options "")(descr ""))
 )

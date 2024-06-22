@@ -5,4 +5,5 @@
   (lib (name "TP4056")(type "KiCad")(uri "${KIPRJMOD}/TP4056")(options "")(descr ""))
   (lib (name "DS1307ZTR")(type "KiCad")(uri "${KIPRJMOD}/DS1307ZTR")(options "")(descr ""))
   (lib (name "DVI-D connector")(type "KiCad")(uri "${KIPRJMOD}/DVI-D connector")(options "")(descr ""))
+  (lib (name "PJ-002AH")(type "KiCad")(uri "${KIPRJMOD}/PJ-002AH")(options "")(descr ""))
 )

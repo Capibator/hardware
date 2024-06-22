@@ -1,0 +1,22 @@
+connector consideration
+group 1 small signal only and mA
+temp1 3
+temp2 3
+water level 3
+
+group 2 power 200
+water pump 2
+led 2
+mist 2
+fan continous 2
+fan exhaust 2
+
+group 3 signal only.
+pcf extra 4 signal 
+gpio 6 extra signal 
+3.3V and gnd 
+
+group 4
+jst xh maybe? just signal
+display 4 
+rotary encoder 5
