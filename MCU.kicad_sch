@@ -9824,16 +9824,6 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 83.82) (xy 231.775 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67063171-b7a9-4aca-85f7-76afbec1f699")
-	)
-	(wire
-		(pts
 			(xy 36.83 182.88) (xy 66.04 182.88)
 		)
 		(stroke
@@ -10261,16 +10251,6 @@
 			(type default)
 		)
 		(uuid "87c0fddb-2b92-4055-9973-271e562cea08")
-	)
-	(wire
-		(pts
-			(xy 236.22 82.55) (xy 236.855 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "889aabf9-4b76-4617-9b4d-2212b8a86fba")
 	)
 	(wire
 		(pts
@@ -11771,16 +11751,6 @@
 			(type default)
 		)
 		(uuid "f9de6f8d-1c8f-4acd-b41f-c3b17984483c")
-	)
-	(wire
-		(pts
-			(xy 236.22 82.55) (xy 236.22 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9eb734e-8954-491f-9a67-d43cffc09554")
 	)
 	(wire
 		(pts
@@ -13470,28 +13440,6 @@
 			(justify right bottom)
 		)
 		(uuid "fe51383e-7ef7-4eb2-8a53-b1df726619b6")
-	)
-	(global_label "12V_status"
-		(shape input)
-		(at 236.855 82.55 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "23166795-9444-47bf-aadd-52c24eb95a9b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 250.121 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "Buck_In"
 		(shape input)
